@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <div class="navbar">
+          <img src="Images/logo.jpg" class="logo" />
+          <ul>
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="header-text">
+          <h3>Hey! It's me Shashank,</h3>
+          <p class="experience-text">
+            MERN Stack Enthusiast | Exploring Full-Stack Development | Building
+            Responsive, Scalable Web Solutions.
+          </p>
+          <br /><br />
+          <p class="heroic-text">
+            Turning ideas into
+            <span class="bold-text">immersive experiences</span> that truly
+            resonate.
+          </p>
+          <div class="bottom-text">
+            <p>
+              I am on a journey of mastering modern web development, learning
+              deeply, building passionately, and improving with every project I
+              create.
+            </p>
+          </div>
+        </div>
+        <br /><br />
+        <div class="bottom-links">
+          <ul>
+            <li>
+              <a
+                href="https://www.instagram.com/shashank_shrivastava_25?igsh=cmFlenZiMnQ4NXpw"
+                >Instagram &#8599;</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/shashank-shrivastava-458342344?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                >Linkedin &#8599;</a
+              >
+            </li>
+            <li>
+              <a href="https://github.com/ShashankShrivastava25"
+                >Github &#8599;</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="Images/photouser.jpeg" class="user-photo" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="subtitle about-subtitle">About Me</h1>
+            <p>
+              I’m Shashank Shrivastava, a B.Tech CSE student in my second year.
+              I am a dedicated learner with a growing passion for web
+              application development. I love solving problems, experimenting
+              with new technologies, and constantly challenging myself to
+              improve. I am deeply curious about the tech industry and excited
+              to keep learning and growing in this field.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>Full Stack Web Development</span><br />MERN Stack</li>
+                <li>
+                  <span>Tech Enthusiast</span><br />Designing Responsive,
+                  Scalable Web Applications based on MVC Framework
+                </li>
+                <li>
+                  <span>Problem Solver</span><br />Exploring Data Structure &
+                  Algorithm
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>Building First Major Project</span><br />A clone of
+                  Airbnb Web Application
+                </li>
+                <li>
+                  <span>Minor Projects</span><br />Spotify clone, Simon says
+                  Game
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>Scored :</span> 9.3CGPA</li>
+                <li><span>JEE Mains :</span> 89%ile</li>
+                <li><span> Class 12th :</span> 89%</li>
+                <li><span> Class 10th :</span> 94%</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="contact">
+      <div class="contact-container">
+        <h1 class="sub-title">Contact Me</h1>
+        <div class="row">
+          <div class="contact-left">
+            <p>shashankshrivastava25@gmail.com</p>
+            <p>88270XXXXX</p>
+            <a
+              href="https://www.instagram.com/shashank_shrivastava_25?igsh=cmFlenZiMnQ4NXpw"
+              >Instagram &#8599;</a
+            ><br />
+            <a href="https://github.com/ShashankShrivastava25">Github &#8599;</a
+            ><br />
+            <a
+              href="https://www.linkedin.com/in/shashank-shrivastava-458342344?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+              >Linkedin &#8599;</a
+            >
+          </div>
+          <div class="contact-right">
+            <h5>&#10023; CONNECT WITH ME</h5>
+            <h1>Let's start a project together</h1>
+            <br />
+            <form>
+              Name:<br />
+              <input
+                type="text"
+                name="Name"
+                placeholder="Enter your name"
+                required
+              /><br />
+              Email:<br />
+              <input
+                type="email"
+                name="email"
+                placeholder="Enter your email"
+                required
+              /><br />
+              Text:<br />
+              <textarea
+                name="Text"
+                rows="3"
+                placeholder="Your Message"
+                required
+              >
+              </textarea
+              ><br />
+              Contact No.:<br />
+              <input
+                type="number"
+                name="Contact no."
+                placeholder="Enter number"
+                required
+              /><br />
+              <button type="submit" class="btn">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
